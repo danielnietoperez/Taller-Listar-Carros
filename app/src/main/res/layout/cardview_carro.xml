@@ -32,7 +32,7 @@
                 <TextView
                     android:id="@+id/lblPlaca"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="20dp"
                     android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -40,7 +40,7 @@
                 <TextView
                     android:id="@+id/lblMarca"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="20dp"
                     android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -48,7 +48,7 @@
                 <TextView
                     android:id="@+id/lblModelo"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="20dp"
                     android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -56,7 +56,15 @@
                 <TextView
                     android:id="@+id/lblPrecio"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
                     android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold" />

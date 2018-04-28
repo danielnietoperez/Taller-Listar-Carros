@@ -32,6 +32,7 @@ public class AdaptadorCarros extends RecyclerView.Adapter<AdaptadorCarros.Carros
         holder.placa.setText(c.getPlaca());
         holder.marca.setText(res.getStringArray(R.array.marca)[c.getMarca()]);
         holder.modelo.setText(res.getStringArray(R.array.modelo)[c.getModelo()]);
+        holder.color.setText(res.getStringArray(R.array.color)[c.getColor()]);
         holder.precio.setText(""+c.getPrecio());
     }
 
@@ -46,6 +47,7 @@ public class AdaptadorCarros extends RecyclerView.Adapter<AdaptadorCarros.Carros
         private TextView marca;
         private TextView modelo;
         private TextView precio;
+        private TextView color;
         private View v;
         public CarrosViewHolder(View itemView) {
             super(itemView);
@@ -55,6 +57,7 @@ public class AdaptadorCarros extends RecyclerView.Adapter<AdaptadorCarros.Carros
             marca = v.findViewById(R.id.lblMarca);
             modelo = v.findViewById(R.id.lblModelo);
             precio = v.findViewById(R.id.lblPrecio);
+            color = v.findViewById(R.id.lblColor);
         }
     }
 }

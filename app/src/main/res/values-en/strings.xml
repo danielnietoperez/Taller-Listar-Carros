@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Worshop2</string>
+    <string name="action_settings">Settings</string>
+    <string name="guardar">Save</string>
+    <string name="borrar">Clear</string>
+    <string name="placa">Plate</string>
+    <string name="marca">Brand</string>
+    <string name="modelo">Model</string>
+    <string name="color">Color</string>
+    <string name="precio">Price</string>
+    <string name="digiteLaPlaca">Type the plate of car</string>
+    <string name="digiteElPrecio">Type the price of car</string>
+    <string name="kia">Kia</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="mazda">Mazda</string>
+    <string name="dosmilDieciOcho">2018</string>
+    <string name="dosmilDieciSiete">2017</string>
+    <string name="dosmilDieciSeis">2017</string>
+    <string name="azul">Blue</string>
+    <string name="negro">Black</string>
+    <string name="blanco">White</string>
+    <string name="error1">You can not leave empty fields</string>
+    <string name="mensaje_guardado">Car saved successfully</string>
+</resources>
